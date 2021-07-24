@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.heading {
+    background-color: rgb(194, 36, 110);
+    padding: 20px;
+}
+
+.heading h1 {
+    color: white;
+    text-align: center;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+.table table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.table table th,
+td {
+    border: 1px solid rgb(15, 15, 15);
+}
+
+.table table th {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: left;
+
+}
+
+.table table tr:nth-child(odd) {
+    background-color: rgb(169, 172, 170);
+}
+
+.table table tr:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+.table table td {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    line-height: 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn-pirmary {
+    background-color: rgb(39, 39, 211);
+    color: white;
+}
+
+.btn-danger {
+    background-color: rgb(230, 36, 36);
+    color: white;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    width: 80%;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 10px 20px;
+}
+
+/* .right-button {
+    position: relative;
+} */
+
+#modal {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(63, 62, 62, 0.877);
+    width: 100%;
+    height: 100vh;
+    /* transition: all 0.5s; */
+}
+
+#updateModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(63, 62, 62, 0.877);
+    width: 100%;
+    height: 100vh;
+    transition: all 0.5s;
+}
+
+.modal-content {
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    display: block;
+    margin: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 1.4rem;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(144, 144, 148);
+}
+
+label {
+    font-weight: 700;
+}
+
+.close-btn {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+}
+
+.head {
+    margin-top: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+#search {
+    width: 50%;
+    margin: auto;
+}
+
+#error-message {
+    position: fixed;
+    display: none;
+    right: 50px;
+    top: 10px;
+    background-color: rgb(233, 57, 26);
+    padding: 10px 10px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+}
+
+#success-message {
+    position: fixed;
+    display: none;
+    right: 50px;
+    top: 10px;
+    background-color: rgb(26, 233, 88);
+    padding: 10px 10px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+}
